@@ -11,7 +11,7 @@ $(function(){
 	
 	 $.ajax({
 	 	type:"get",
-	 	url:"http://127.0.0.1/yangguang/json/shop_data.json",
+	 	url:"http://127.0.0.1/json/shop_data.json",
 	 	success:function(res){
 	 		for(var i in res){
 	 			if(res[i].pid == pid){

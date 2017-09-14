@@ -11,7 +11,7 @@ $(function(){
 	
 	 $.ajax({
 	 	type:"get",
-	 	url:"json/shop_data.json",
+	 	url:"../json/shop_data.json",
 	 	success:function(res){
 	 		for(var i in res){
 	 			if(res[i].pid == pid){
